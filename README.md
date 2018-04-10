@@ -6,7 +6,7 @@ Checkout [HullOS](https://github.com/HullPixelbot/HullOS) on Github.
 Written in pure python the simulator uses Pygame for graphics and smartquadtree for collision detection.
 
 Smartquadtree has the ability to mask the quadtree using a python list of vertices for the required shape. In the 
-code I create a cone representing the ukltrasound sensor region of interest. Smartquadtree then returns only the 
+code I create a cone representing the ultrasound sensor region of interest. Smartquadtree then returns only the 
 robots which are within that area and so are potential collision candidates.
 
 This is Windows oriented but it should be possible to run on MacOS.
@@ -28,13 +28,12 @@ use easy_install <path to egg>
 
 # Forms
 
-This folder contains the main user forms except the PyGame window
-
-
-# Files
-
-robot.json - config data for all the robots.
+This folder contains the main user forms , which use tkinter, except the PyGame window which is launched by Simulator.py
 
 # Scripts
 
 Location of all robot scripts
+
+# Docs
+
+Location of documentation.
