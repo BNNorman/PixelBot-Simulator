@@ -1,0 +1,4 @@
+{"CloseEncounter": {"color": "Blue", "name": "CloseEncounter", "scriptPath":
+"C:/Users/brian/PycharmProjects/PixelBot/Scripts/CloseEncounters.dat"}, "Fred": {"color": "Black", "name": "Fred",
+  "scriptPath": "C:/Users/brian/PycharmProjects/PixelBot/Scripts/Kevin.dat"}, "Brian": {"color": "Yellow", "name":
+"Brian", "scriptPath": "C:/Users/brian/PycharmProjects/PixelBot/Scripts/Brian.dat"}, "Kevin": {"color": "Black", "name": "Kevin", "scriptPath": "C:/Users/brian/PycharmProjects/PixelBot/Scripts/Kevin.dat"}, "Rob": {"color": "Magenta", "name": "Rob", "scriptPath": "C:/Users/brian/PycharmProjects/PixelBot/Scripts/RobMiles.dat"}}
