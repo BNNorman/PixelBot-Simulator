@@ -1,0 +1,26 @@
+# notes for close encounters
+println "Close encounters in three voices"
+SOUND 440 1000 WAIT
+DELAY 100
+FOREVER
+    println "High pitch"
+    SOUND 783 500 WAIT
+    SOUND 880 500 WAIT
+    SOUND 698 500 WAIT
+    SOUND 350 500 WAIT
+    SOUND 523 500 WAIT
+    DELAY 100
+    println "Low pitch"
+    SOUND 78 500 WAIT
+    SOUND 88 500 WAIT
+    SOUND 69 500 WAIT
+    SOUND 35 500 WAIT
+    SOUND 52 500 WAIT
+    DELAY 100
+    println "Mid pitch"
+    SOUND 196 500 WAIT
+    SOUND 220 500 WAIT
+    SOUND 175 500 WAIT
+    SOUND 88 500 WAIT
+    SOUND 131 500 WAIT
+    DELAY 100

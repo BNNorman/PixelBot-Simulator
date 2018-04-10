@@ -1,0 +1,35 @@
+#BRIAN 2
+POS 400 400
+delay 5
+println "Compass 90"
+COMPASS 90
+MOVE 100 intime 10
+println "Compass 180"
+COMPASS 180
+MOVE 100 intime 10
+println "Compass 270"
+COMPASS 270
+MOVE 100 intime 10
+println "Compass 0"
+COMPASS 0
+MOVE 100 intime 10
+FOREVER
+    println "Looping"
+    ARC -200 ANGLE 360 INTIME 100
+    println "I am here: @X , @Y"
+    SOUND 783 500 WAIT
+    SOUND 880 500 WAIT
+    SOUND 698 500 WAIT
+    SOUND 350 500 WAIT
+    SOUND 523 500 WAIT
+    TURN 30
+    MOVE 100 INTIME 20
+    TURN 30
+    MOVE 100 INTIME 20
+    IF @distance<100
+        ANGRY
+        println "Hey! That's close enough! Back off buster!"
+    else
+        HAPPY
+PRINTLN "End of script"
+

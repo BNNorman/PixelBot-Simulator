@@ -1,0 +1,12 @@
+DIR 270
+POS 400 400
+FOREVER
+    println "Current heading @compass and angle @angle"
+    TURN 30
+    MOVE 100 INTIME 10
+    if @distance<100
+        ANGRY
+        println "Too close! I'm angry now! Back off buddy!"
+    else
+        HAPPY
+#END

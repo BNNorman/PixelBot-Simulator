@@ -1,0 +1,7 @@
+println "Starting new script"
+POS 400 400
+forever
+ arc 200 ANGLE 360 intime 360
+ arc -200 ANGLE 360 intime 360
+
+

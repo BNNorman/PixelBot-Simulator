@@ -1,0 +1,21 @@
+POS 400 400
+FOREVER
+    ARC -200 ANGLE 360 INTIME 100
+    println "I am here: @X , @Y"
+    println "The aliens are here..."
+    SOUND 196 500 WAIT
+    SOUND 220 500 WAIT
+    SOUND 175 500 WAIT
+    SOUND 88 500 WAIT
+    SOUND 131 500 WAIT
+    println "Run for cover..."
+    TURN 30
+    MOVE 100 INTIME 20
+    TURN 30
+    MOVE 100 INTIME 20
+    IF @distance<100
+        ANGRY
+        println "Hey! That's close enough! Back off buster!"
+    else
+        HAPPY
+PRINTLN "End of script"

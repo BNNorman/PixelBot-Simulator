@@ -1,0 +1,11 @@
+POS 600 600
+COMPASS 0
+FOREVER
+    ARC -200 ANGLE 45 INTIME 100
+    ARC 200 ANGLE 45 INTIME 100
+    IF @distance<100
+        ANGRY
+        println "Hey! That's close enough! Back off buster!"
+    else
+        HAPPY
+PRINTLN "End of script"
