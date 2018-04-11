@@ -1,5 +1,10 @@
 import pygame
 
+# main dialog sizes
+ARENA=(800,800)
+CONSOLE=(600,150)
+MANAGER=(600,800)
+
 FINISHED=True
 NOTFINISHED=False
 
