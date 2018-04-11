@@ -171,7 +171,7 @@ class RobotManager:
  #               self.RobotList.insert(END, self.botList[bot]["name"])
 
         except Exception as e:
-            print("Unable to load",self.robotsPath,"Has it been moved?",e.args)
+            print("Unable to load",self.robotsPath," .Has it been moved?",e.args)
             messagebox.showinfo("Robot Chooser","Unable to open robot data file "+self.robotsPath)
 
 
@@ -238,7 +238,7 @@ class RobotManager:
 
     def refreshRobotList(self):
         botList=sorted(self.botList.keys(),key=str.lower)
-        print("RobotManager.refreshBotList() sorted=",botList)
+        #print("RobotManager.refreshBotList() sorted=",botList)
         self.RobotList.delete(0,END)
         for bot in botList:
             self.RobotList.insert(END,bot)
